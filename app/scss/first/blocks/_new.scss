@@ -1,0 +1,38 @@
+
+.new {
+	position: relative;
+    z-index: 11;
+    margin-top: 180px;
+    display: flex;
+
+    &__title {
+    	position: absolute;
+    	width: 700px;
+    	right: 0;
+    	top: -100px;
+    }
+
+    &__left {
+    	min-width: 645px;
+    	height: 326px;
+    }
+
+    &__right {
+    	padding: 60px 0 0 60px;
+    	width: 672px;
+    }
+
+    &__persons {
+    	display: flex;
+    	flex-wrap: wrap;
+    	margin: 10px -8px 0;
+    }
+
+    &__person {
+    	font-weight: 700;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    padding: 8px;
+	    padding-bottom: 0;
+    }
+}

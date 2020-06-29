@@ -1,0 +1,58 @@
+
+* {
+	box-sizing: border-box;
+}
+
+.body {
+	position: relative;
+
+	&__container {
+		min-width: 1240px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+}
+
+.norequired {
+	display: none;
+
+	&_active {
+		display: block;
+	    color: #a20808;
+	    background: #fff;
+	    margin: 0 auto 20px;
+	    padding: 10px;
+	    text-align: center;
+	    font-size: 21px;
+	    border-bottom: 1px solid #a20808;
+	}
+}
+
+@import '_fonts.scss';
+@import '_colors.scss';
+@import '_typography.scss';
+
+@import 'nodes/_input.scss';
+@import 'nodes/_label.scss';
+@import 'nodes/_link.scss';
+
+@import 'modules/_container.scss';
+@import 'modules/_logo.scss';
+@import 'modules/_block.scss';
+@import 'modules/_header.scss';
+@import 'modules/_text.scss';
+@import 'modules/_button.scss';
+@import 'modules/_cube.scss';
+@import 'modules/_list.scss';
+
+@import 'blocks/_head.scss';
+@import 'blocks/_copyright.scss';
+@import 'blocks/_subHead.scss';
+@import 'blocks/_when.scss';
+@import 'blocks/_new.scss';
+@import 'blocks/summary.scss';
+@import 'blocks/plan.scss';
+@import 'blocks/modal.scss';
+@import 'blocks/arrow.scss';
+

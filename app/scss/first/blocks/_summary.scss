@@ -1,0 +1,53 @@
+
+.summary {
+	width: 80%;
+    margin-left: 20%;
+    margin-top: 140px;
+    position: relative;
+
+    &__right {
+    	z-index: 10;
+    	position: relative;
+    }
+
+    &__title {
+    	position: absolute;
+	    width: 600px;
+	    left: -240px;
+	    top: -42px;
+	    z-index: 11;
+    }
+
+	&__trigers {
+		display: flex;
+    	margin-top: 40px;
+	}
+
+	&__trigerCol {	
+		&:first-child {
+			padding-right: 10px;
+		}
+
+		&:last-child {
+			padding-left: 10px;
+		}
+	}
+
+	&__triger {
+		font-size: 20px;
+    	line-height: 40px;
+    	font-weight: 300;
+    	padding-left: 20px;
+    	border-left: 6px solid $bright;
+    	margin-bottom: 40px;
+
+    	&:last-child {
+    		margin-bottom: 0;
+    	}
+	}
+
+	&__block {
+		padding-left: 100px;
+		padding-bottom: 80px;
+	}
+}
